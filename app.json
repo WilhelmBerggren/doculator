@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "doculator",
+    "owner": "wilhelmberggren",
     "slug": "doculator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wilhelmberggren.doculator"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.wilhelmberggren.doculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
